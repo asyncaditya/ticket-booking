@@ -19,7 +19,7 @@ const PageRoutes = () => {
   return (
     <>
       <Routes>
-         <Route path={routes.HOME} element={<SignupLayout />}>
+         <Route path={routes.HOME} element={<SignupLayout />}/>
         <Route index element={<Home />} />
         <Route path={routes.HOME} element={<Home />} />
         <Route path={routes.USERSIGNUP} element={<UserSignup />} />
@@ -34,7 +34,6 @@ const PageRoutes = () => {
            <Route path={routes.USERMOVIES} element={<UserMovies/>}/>
            <Route path={routes.SEATS} element={<Seats/>}/>
            <Route path={routes.PAYMENTS} element={<Payments/>}/>
-           </Route>
        
 
       </Routes>
